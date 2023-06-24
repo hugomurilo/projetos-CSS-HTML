@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to right bottom, rgb(87, 214, 232), rgb(160, 0, 235));
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 350px;
+    height: 400px;
+    padding: 20px 25px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+}
+
+.close {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.login-close{
+    position: right;
+    font-size: 25px; 
+    text-align: right;
+    padding-bottom: 5px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.blank {
+    flex-grow: 4;
+    align-items: stretch;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    cursor: default;
+}
+
+
+.login-title{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+form > div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+}
+
+form > div > label {
+    font-size: 18px;
+    font-weight:normal;
+    padding-top: 12px;
+    color: rgb(65, 63, 63);
+}
+
+form > div > input {
+    padding: 10px;
+    border: 1px solid rgb(160, 159, 159);
+    font-size: 18px;
+}
+
+.login-link-forgot {
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight:bold;
+    color: rgb(19, 156, 163);
+    margin-bottom: 30px;
+}
+
+.login-buttom {
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(87, 214, 232), rgb(160, 0, 235));
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+.login-buttom:hover {
+    box-shadow: 0 0 4px 1px black;
+    cursor: pointer;
+}
+
+.not-member {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    font-weight:bold;
+    color: rgb(65, 63, 63);
+    margin-top: 30px;
+}
+
+.login-link-signup {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight:bold;
+    color: rgb(19, 156, 163);
+}
