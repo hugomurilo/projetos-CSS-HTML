@@ -1,0 +1,84 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(8, 67, 90);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(30, 94, 119);
+    padding: 10px 20px 0px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    padding: 50px;
+    margin: auto;
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding: 30px;
+}
+
+.content {
+    background-color: rgb(5, 45, 63);
+    min-height: 300px;
+
+    color: rgb(219, 219, 219);
+    text-align: center;
+}
+
+.content table {
+    margin: auto;
+    padding-top: 50px;
+    width: auto;
+    height: 250px;
+    font-size: 20px;
+}
+.content table thead th {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.content table tbody td {
+    margin: 50px;
+}
+
+.content table tbody tr:nth-child(even) {
+    /* tudo que é par ficará pintado*/
+    background-color: rgb(3, 3, 3);
+}
+
+.footer {
+    background-color: rgb(8, 67, 90);
+
+    text-align: center;
+    padding: 80px;
+
+}
